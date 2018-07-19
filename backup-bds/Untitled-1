@@ -21,3 +21,24 @@ carlosseabra$ mongoimport --collection restaurantes --file author.json
 mongo "mongodb+srv://cms1-qb4fs.gcp.mongodb.net/test" --username gaston_lagaffe
 
 
+***********
+// ciclo de atualização no GITHUB
+Adicionar ficheiros
+1) git add -A
+
+Verificar ficheiros a incluir
+2) git status
+
+Efetuar o commit
+3) git commit -m "Observação da alteração/modificação"
+
+Sicronizar
+4) git push origin master
+
+**********
+
+
+// HEROKU
+Creating app... done, hidden-shelf-76569
+https://hidden-shelf-76569.herokuapp.com/ | https://git.heroku.com/hidden-shelf-76569.git
+

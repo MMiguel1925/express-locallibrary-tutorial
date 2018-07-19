@@ -3,9 +3,11 @@ var express = require('express');
 
 //Set up mongoose connection
 var mongoose = require('mongoose');
-//var mongoDB = process.env.MONGODB_URI || 'mongodb://gaston_lagaffe:tex3noemie@ds020168.mlab.com:20168/local_library';
+
 var mongoDB = process.env.MONGODB_URI || 'mongodb+srv://gaston_lagaffe:tex3noemie@cms1-qb4fs.gcp.mongodb.net/local_library?retryWrites=true'
+
 mongoose.connect(mongoDB);
+
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
