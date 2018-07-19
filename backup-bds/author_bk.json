@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5b47a3eecfd32209d90aaddb"},"first_name":"Ben","family_name":"Bova","date_of_birth":{"$date":{"$numberLong":"-1172275200000"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b47a3eecfd32209d90aaddc"},"first_name":"Isaac","family_name":"Asimov","date_of_birth":{"$date":{"$numberLong":"-1577836800000"}},"date_of_death":{"$date":{"$numberLong":"702518400000"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b47a3eecfd32209d90aaddd"},"first_name":"Bob","family_name":"Billings","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b47a3eecfd32209d90aadde"},"first_name":"Jim","family_name":"Jones","date_of_birth":{"$date":{"$numberLong":"61689600000"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b47a3eecfd32209d90aadda"},"first_name":"Patrick","family_name":"Rothfuss","date_of_birth":{"$date":{"$numberLong":"108172800000"}},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b4b4acc6a4f161bdfd2ebd2"},"first_name":"Carlos","family_name":"Seabra","date_of_birth":{"$date":{"$numberLong":"-149126400000"}},"date_of_death":null,"__v":{"$numberInt":"0"}}

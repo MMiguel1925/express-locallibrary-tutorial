@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5b47a3eecfd32209d90aade1"},"name":"French Poetry","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b47a3eecfd32209d90aaddf"},"name":"Fantasy","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b47a3eecfd32209d90aade0"},"name":"Science Fiction","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b4b1d9ee5ce0d1ac6ed3027"},"name":"Aventura","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5b4b1e5fe5ce0d1ac6ed302d"},"name":"Policial","__v":{"$numberInt":"0"}}

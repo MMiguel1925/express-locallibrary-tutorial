@@ -1,0 +1,23 @@
+
+
+mongoimport --host cms1-shard-00-01-qb4fs.gcp.mongodb.net:27017 --db local_library --type json --file author.json --jsonArray --authenticationDatabase admin --ssl --username gaston_lagaffe --password tex3noemie
+cms1-shard-00-01-qb4fs.gcp.mongodb.net:27017 
+
+mongoimport --host cms1-shard-00-01-qb4fs.gcp.mongodb.net:27017 --db local_library --type json --file books.json --authenticationDatabase admin --ssl --username gaston_lagaffe --password tex3noemie
+
+
+/Users/carlosseabra/Documents/Projetos/Desenvolvimento/Node/express-locallibrary-tutorial/backup-bds/author_bk.json
+
+gaston_lagaffe:tex3noemie
+
+
+mongoimport --db test --collection restaurants --file /Users/carlosseabra/Documents/Projetos/Desenvolvimento/Node/express-locallibrary-tutorial/backup-bds/author_bk.json
+
+carlosseabra$ mongoimport --collection restaurantes --file author.json
+
+
+
+// ligação à bd atraves da mongo shel:
+mongo "mongodb+srv://cms1-qb4fs.gcp.mongodb.net/test" --username gaston_lagaffe
+
+
